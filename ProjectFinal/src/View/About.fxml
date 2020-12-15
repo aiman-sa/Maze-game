@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label ellipsisString="" layoutX="33.0" prefHeight="82.0" prefWidth="123.0" text="About" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+            <font>
+                <Font name="Brush Script MT Italic" size="60.0" />
+            </font>
+        </Label>
+        <Label alignment="TOP_CENTER" layoutX="7.0" layoutY="88.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="276.0" prefWidth="239.0" text="Game Creators: Ayman Sayed, Daniel Zamanski      -----------------                                      Algorithms for generating the maze:               1)Simple Maze generating,                         2)Algorithm Maze generating.                             -----------------                                Algorithms for solving the maze:                                                         1)Breadth First Search,                                  2)Best First Search,                                                   3)Depth Fist Search. " wrapText="true" />
+    </children>
+</AnchorPane>
